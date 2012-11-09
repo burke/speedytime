@@ -3,7 +3,7 @@
 
 VALUE speedytime_current(void)
 {
-  struct timeval &tv;
+  struct timeval tv;
   gettimeofday(&tv, NULL);
   return INT2FIX(tv.tv_sec);
 }

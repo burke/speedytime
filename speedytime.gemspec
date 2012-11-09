@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Speedytime::VERSION
   gem.authors       = ["Burke Libbey"]
   gem.email         = ["burke@libbey.me"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Stupid simple gem to get the current timestamp without an object allocation}
+  gem.summary   = %q{Stupid simple gem to get the current timestamp without an object allocation}
   gem.homepage      = ""
 
   gem.extensions    = ['ext/speedytime/extconf.rb']
